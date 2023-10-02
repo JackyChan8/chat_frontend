@@ -1,0 +1,41 @@
+.main_page {
+  height: 100%;
+  background: #1e1f24;
+  background-image: url("/Main/ellipse.png");
+
+  header {
+    display: flex;
+    padding: 56px 100px 0 100px;
+    justify-content: space-between;
+  }
+
+  main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 140px;
+    padding: 0 50px;
+    .welcome_block {
+      width: 579px;
+      h1 {
+        color: white;
+        font-weight: bold;
+        font-size: 64px;
+      }
+      p {
+        color: rgb(223 223 223);
+        margin-top: 28px;
+        font-size: 14px;
+      }
+      .welcome_block__btn {
+        margin-top: 28px;
+      }
+    }
+    .welcome_img {
+      img {
+        width: 400px;
+        height: 500px;
+      }
+    }
+  }
+}

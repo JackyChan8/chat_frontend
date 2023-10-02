@@ -1,0 +1,113 @@
+.messages__message_received {
+  gap: 15px;
+  width: 100%;
+  display: flex;
+  padding: 30px 0px 30px 32px;
+
+  justify-content: left;
+  .message_user_avatar {
+    img {
+      width: 33px;
+      height: 33px;
+      border-radius: 50%;
+    }
+  }
+  .message_info {
+    .messages_message_receiver_user {
+      gap: 20px;
+      display: flex;
+      .message_name {
+        font-size: 18px;
+        color: #f5f5f5;
+      }
+      .message_created_at {
+        color: #7c8ba0;
+      }
+    }
+    .message {
+      display: flex;
+      align-items: center;
+      .message_text {
+        min-width: 265px;
+        max-width: 400px;
+        min-height: 40px;
+        max-height: 400px;
+        display: flex;
+        padding: 15px;
+        margin-top: 8px;
+        align-items: center;
+        background: #1e1f24;
+        justify-content: center;
+        border-radius: 0px 10px 10px 10px;
+        p {
+          line-height: 20px;
+          color: #768396;
+        }
+      }
+      .message_more {
+        button {
+          background: none;
+        }
+      }
+    }
+  }
+}
+.messages__message_send {
+  gap: 15px;
+  width: 100%;
+  display: flex;
+  padding: 30px 32px 30px 0;
+
+  justify-content: right;
+  .message_user_avatar {
+    img {
+      width: 33px;
+      height: 33px;
+      border-radius: 50%;
+    }
+  }
+  .message_info {
+    .messages_message_receiver_user {
+      justify-content: right;
+      gap: 20px;
+      display: flex;
+      .message_name {
+        font-size: 18px;
+        color: #f5f5f5;
+      }
+      .message_created_at {
+        color: #7c8ba0;
+      }
+    }
+    .message {
+      display: flex;
+      align-items: center;
+      .message_text {
+        min-width: 265px;
+        max-width: 400px;
+        min-height: 40px;
+        max-height: 400px;
+        display: flex;
+        padding: 15px;
+        margin-top: 8px;
+        align-items: center;
+        background: #5051f9;
+        justify-content: center;
+        border-radius: 0px 10px 10px 10px;
+        p {
+          line-height: 20px;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.message_more {
+  button {
+    background: none;
+    i {
+      color: #9b9b9b;
+    }
+  }
+}

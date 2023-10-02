@@ -1,0 +1,16 @@
+.header {
+  grid-area: header;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  padding: 20px 70px 20px 70px;
+  align-items: center;
+  background: #1e1f24;
+  justify-content: space-between;
+  .block_user {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

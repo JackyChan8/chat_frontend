@@ -1,0 +1,25 @@
+.left_block {
+  width: 100%;
+  display: flex;
+  padding: 100px;
+  text-align: center;
+  background: #1e1f24;
+  flex-direction: column;
+  justify-content: space-between;
+  .logo {
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  .left_block__desc {
+    h2 {
+      font-size: 40px;
+      color: white;
+    }
+    p {
+      font-size: 24px;
+      color: white;
+    }
+  }
+}

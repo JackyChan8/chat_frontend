@@ -1,0 +1,46 @@
+.dialogs__user {
+  gap: 10px;
+  display: flex;
+  cursor: pointer;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    background: #5b5b6b;
+  }
+  .dialogs__user_avatar {
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+  }
+  .dialogs__user_name {
+    display: grid;
+    gap: 8px;
+    width: 140px;
+    text-align: center;
+    p {
+      &:first-child {
+        color: white;
+      }
+      &:last-child {
+        color: rgb(187 187 187);
+      }
+    }
+  }
+  .dialogs__count_messages {
+    p {
+      width: 20px;
+      height: 20px;
+      display: flex;
+      border-radius: 50%;
+      align-items: center;
+      background-color: red;
+      justify-content: center;
+    }
+  }
+}
+.dialog_active {
+  background: #3f3f4b;
+}

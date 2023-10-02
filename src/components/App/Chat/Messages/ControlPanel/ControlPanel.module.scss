@@ -1,0 +1,42 @@
+.messages__control {
+  max-height: 200px;
+  height: 100%;
+  display: flex;
+  padding: 0px 50px;
+  align-items: center;
+  background: #292933;
+  justify-content: center;
+  .messages__control__input {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    height: 47px;
+    max-width: 900px;
+    min-width: 200px;
+    width: 100%;
+    background: #1e1f24;
+    button {
+      background: none;
+    }
+    input {
+      color: white;
+      width: 625px;
+      background: none;
+    }
+    textarea {
+      color: white;
+      background: none;
+      resize: none;
+      padding: 14px 10px 5px 0;
+      transition: border-color 150ms ease;
+      width: 625px;
+      overflow: hidden;
+    }
+    .messages_control__atach_image, .messages_control__send {
+        i {
+            font-size: 20px;
+            color: #9b9b9b;
+        }
+    }
+  }
+}

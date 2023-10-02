@@ -1,0 +1,32 @@
+.user {
+    position: relative;
+    text-align: center;
+    h2, h3 {
+        color: white;
+    }
+    h2 {
+        margin-top: 3px;
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    img {
+        border-radius: 50%;
+    }
+    .create_dialog {
+        top: 0;
+        right: 0;
+        background: none;
+        position: absolute;
+        li {
+            color: aqua;
+            font-size: 25px;
+        }
+        &:hover {
+            li {
+                color: #0477ff;
+            }
+        }
+    }
+}

@@ -9,19 +9,31 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "latest",
-    "react-dom": "latest",
-    "next": "latest"
+    "@reduxjs/toolkit": "^1.9.6",
+    "axios": "^1.5.1",
+    "moment": "^2.29.4",
+    "next": "^13.5.4-canary.6",
+    "primeicons": "^6.0.1",
+    "primereact": "^9.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.2",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2",
+    "xmlhttprequest-ssl": "^2.1.1"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
     "@types/node": "latest",
+    "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
-    "postcss": "latest",
-    "tailwindcss": "latest",
     "eslint": "latest",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "^13.5.3",
+    "postcss": "latest",
+    "sass": "^1.68.0",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2",
+    "tailwindcss": "latest",
+    "typescript": "latest"
   }
 }
